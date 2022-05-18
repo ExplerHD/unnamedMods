@@ -38,11 +38,11 @@ import mindustry.world.meta.*;
 import static mindustry.type.ItemStack.*;
 
 public class NTBlocks{
-  public satic Block
+  public static Block
     
   // erekir - core
-  worldRadar
-  ;
+  worldRadar;
+  
   public static void load(){
     // reg erekir - core
     worldRadar = new Radar("world-radar"){{
