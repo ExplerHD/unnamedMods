@@ -46,12 +46,12 @@ public class NTBlocks{
   public static void load(){
     // reg erekir - core
     worldRadar = new Radar("world-radar"){{
-      requirements(Category.effect, BuildVisibility.fogOnly, with(Items.silicon, 180, Items.graphite, 50, Items.beryllium, 10));
+      requirements(Category.effect, BuildVisibility.fogOnly, with(Items.silicon, 180, Items.graphite, 50, Items.surgeAlloy, 20, Items.tungsten, 10));
       outlineColor = Color.valueOf("4a4b53");
       fogRadius = 560;
       size = 3;
       health = 4 * size * size;
-      researchCost = with(Items.silicon, 70, Items.graphite, 100, Items.tungsten, 70);
+      researchCost = with(Items.silicon, 70, Items.graphite, 100, Items.tungsten, 70, Items.surgeAlloy, 30);
 
       consumePower(2f);
       
