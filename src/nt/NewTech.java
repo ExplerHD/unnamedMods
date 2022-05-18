@@ -21,7 +21,7 @@ public class NewTech extends Mod{
 //        NTItemLiquid.load();
 //        NTBullets.load();
 //        NTUnits.load();
-//        NTBlocks.load();
+        NTBlocks.load();
     }
 
 }
